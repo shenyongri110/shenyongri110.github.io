@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[AngularJS]]></title>
+    <url>%2F2017%2F03%2F19%2Fangularjs%2Fangularjs%2F</url>
+    <content type="text"><![CDATA[Today I am happy, so I want to study AngularJS. I have to say I’m an emotional person, but who cares. OK, let’s start right now. What’s the AngularJsLet’s copy from wiki, AngularJS (commonly referred to as “Angular.js” or “AngularJS 1.X”) is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. The JavaScript components complement Apache Cordova, the framework used for developing cross-platform mobile apps. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications. Where is ithttps://angularjs.org/https://www.madewithangular.com/ Hello AngularJsA website named “Plunker” (https://plnkr.co/) is a useful tool to built angularjs application. It provides the environment including bootstrap, angular and basic html+css. So let start with it. Now we can write the code in the script.js file. Build AngularJs AppThere are two requirements for adding AJ to webpage. Add a &lt;script src=”angular.js”&gt;&lt;/script&gt; tag pointing to angular.js.This is the only library angular depend on. Add an ng-app attribute in your HTML.ng-app is an Angular directive.The ng is short for Angular.]]></content>
+      <categories>
+        <category>AngularJS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Building A Website With Hexo]]></title>
+    <url>%2F2016%2F10%2F21%2Fhexo%2Fhexo-setup%2F</url>
+    <content type="text"><![CDATA[StartingI have tried many website building frameworks , but “Hexo” is really easy to set up and use. Today, let’s study how to build and configure a simple website by using the magic “Hexo”. I think it is a good start for biginner and we will give an example by using NexT theme which is a precise and popular framwork. ContentThis artical is just for Windows user. Install GitThe official installing method is available for download on the Git website. Go to http://git-scm.com/download/win and download will start, click the exe file until finishing installation. Install NodeJsGo to the NodeJs official website https://nodejs.org and you will find the installing packages for different systems, just choose Windows version and download. Here we have two choices to install which are “.msi” and “.exe”. Either of them can be executed on Windows platform. Install HexoFirst of all, we need to realize some commands of hexo. 1234$ hexo g #completed command is "hexo generate" which is used for generating static file.$ hexo s #completed command is "hexo server" which is used for starting the server.$ hexo d #completed command is "hexo deploy" which is used for deploying local files onto github.$ hexo n #completed command is "hexo new" which is used for creating a new post. Right-click anywhere on the desktop and select Git Bash, then execute the follow command1$ npm install hexo-cli -g If we come across the error below1ERROR Deployer not found : github We can execute the following commands first123$ npm install hexo-deployer-git --save$ npm g$ npm d Then we need to create a folder that is for placing blog project, for example, “E:\hexo”. Enter “E:\hexo” and right-click, we also select Git Bash and execute commands. Hexo will generate all files the website needs.12$ hexo init$ hexo install For now, we can see what files hexo generate, just execute commands12$ npm g$ npm s Visit http://localhost:4000/ in the browser, there will be a fine webpage. So now we have built a local website successfully.]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+</search>
