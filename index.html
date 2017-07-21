@@ -293,6 +293,109 @@
             
               
                 
+                <a class="post-title-link" href="/2017/07/21/python/django/" itemprop="url">
+                  Untitled
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2017-07-21T15:28:51-07:00" content="2017-07-21">
+              2017-07-21
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/07/21/python/django/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/07/21/python/django/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li>Django 环境搭建<h1 id="版本选择"><a href="#版本选择" class="headerlink" title="版本选择"></a>版本选择</h1>Django 1.5.x 支持 Python 2.6.5 Python 2.7, Python 3.2 和 3.3.<br>Django 1.6.x 支持 Python 2.6.X, 2.7.X, 3.2.X 和 3.3.X<br>Django 1.7.x 支持 Python 2.7, 3.2, 3.3, 和 3.4 （注意：Python 2.6 不支持了）<br>Django 1.8.x 支持 Python 2.7, 3.2, 3.3, 3.4 和 3.5.  （长期支持版本 LTS)<br>Django 1.9.x 支持 Python 2.7, 3.4 和 3.5. 不支持 3.3 了<br>Django 1.10.x 支持 Python 2.7, 3.4 和 3.5.<br>Django 1.11.x 支持 Python 2.7, 3.4, 3.5 和 3.6，17年4月4号 已经发布（长期支持版本 LTS)<br>更详细的可以参考这里，一般来说，选择长期支持版本比较好。<br>使用最新版本的问题就是，可能要用到的一些第三方插件没有及时更新，无法正常使用这些三方包。<br>如果是学习，可以选择目前的 Django 1.8.x 来进行，遇到问题也容易找到答案。<br>如果是正式启动的新项目，建议用 Django 1.11.x，毕竟 Django 1.9 以后 admin 界面更漂亮些。</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2017/07/08/git/git-liaoxuefeng/" itemprop="url">
                   Git Tutorial
                 </a>
@@ -362,7 +465,8 @@
 
       
         
-          <h1 id="Git简介"><a href="#Git简介" class="headerlink" title="Git简介"></a>Git简介</h1><p>Git是什么？<br>Git是目前世界上最先进的分布式版本控制系统（没有之一）。<br>Git有什么特点？简单来说就是：高端大气上档次！</p>
+          <h1 id="Git命令大全"><a href="#Git命令大全" class="headerlink" title="Git命令大全"></a>Git命令大全</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">$ git init #创建版本库</div><div class="line">$ git add readme.txt readme2.txt #添加文件到Stage(Index)缓存区</div><div class="line">$ git commit -m &quot;wrote a readme file&quot; #提交所有在缓存区的文件到版本库</div><div class="line">$ git status #查看仓库当前状态</div><div class="line">$ git diff readme.txt #查看工作区当前文件与最新版本差异</div><div class="line">$ git diff HEAD – readme.txt #查看工作区当前文件与版本之间的差异</div><div class="line">$ git log --pretty=oneline #查看仓库日志记录</div><div class="line">$ git reset –hard HEAD^ #回退到上一个版本</div><div class="line">$ git reset -hard 3628164 #使用sha1的值</div><div class="line">$ git reflog #查看所有操作历史记录</div><div class="line">$ git checkout -- readme.txt #如果文件已经add到缓存，就恢复缓存的状态。如果文件已经commit到版本库，就恢复版本库的状态</div><div class="line">$ git reset HEAD readme.txt #类似于revert，将缓存区内容撤掉</div><div class="line">$ git rm test.txt #删除版本库中的文件</div><div class="line">$ git checkout -- test1.txt #如果文件本地删掉，可以用该命令恢复</div></pre></td></tr></table></figure>
+<h1 id="Git简介"><a href="#Git简介" class="headerlink" title="Git简介"></a>Git简介</h1><p>Git是什么？<br>Git是目前世界上最先进的分布式版本控制系统（没有之一）。<br>Git有什么特点？简单来说就是：高端大气上档次！</p>
 <p>那什么是版本控制系统？<br>如果你用Microsoft Word写过长篇大论，那你一定有这样的经历：<br>想删除一个段落，又怕将来想恢复找不回来怎么办？有办法，先把当前文件“另存为……”一个新的Word文件，再接着改，改到一定程度，再“另存为……”一个新文件，这样一直改下去，最后你的Word文档变成了这样：<br><img src="/images/git-tutorial-01.jpg" alt=""><br>
           <div class="post-more-link text-center">
             <a class="btn" href="/2017/07/08/git/git-liaoxuefeng/#more" rel="contents">
@@ -681,7 +785,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
